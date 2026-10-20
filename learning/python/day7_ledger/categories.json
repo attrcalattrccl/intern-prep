@@ -1,0 +1,21 @@
+{
+  "income": [
+    "salary",
+    "bonus",
+    "side income",
+    "investment income",
+    "cash gift",
+    "others"
+  ],
+  "expense": [
+    "food & dining",
+    "transportation",
+    "housing",
+    "shopping",
+    "entertainment",
+    "medical",
+    "education",
+    "gifts & red envelopes",
+    "others"
+  ]
+}

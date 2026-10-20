@@ -18,8 +18,12 @@ intern-prep/
         │   ├── contacts.json
         │   └── day5_contacts.py
         ├── day6_try.py          # 异常处理练习
-        └── day6_rename/         # 文件批量重命名工具
-            └── day6_rename.py
+        ├── day6_rename/         # 文件批量重命名工具
+        │   └── day6_rename.py
+        └── day7_ledger/         # 记账本（收支分类 + 统计）
+            ├── categories.json
+            ├── day7_ledger_v1.0.py
+            └── records.json
 ```
 
 ## 环境要求

@@ -1,0 +1,11 @@
+[
+  {
+    "date": "2026-10-20",
+    "amount": -20.0,
+    "category": [
+      "expense",
+      "food & dining"
+    ],
+    "note": "lunch"
+  }
+]

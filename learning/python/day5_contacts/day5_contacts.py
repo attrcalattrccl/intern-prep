@@ -1,8 +1,8 @@
 import json
-PATH = r"F:\实习\project\learning\python\day5_contacts\contacts.json"
+PATH = r"learning\python\day5_contacts\contacts.json"
 # 初始化通讯录:(已完成)
 # initial_contacts = {"小明":"1234561","小红":"1234562"}
-# with open("F:\实习\project\learning\python\day5_contacts\contacts.json", "w", encoding="utf-8") as f:
+# with open(PATH, "w", encoding="utf-8") as f:
 #     json.dump(initial_contacts, f, ensure_ascii=False, indent=2)
 
 # 读取通讯录：返回 json文件内容
