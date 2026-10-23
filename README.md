@@ -5,37 +5,44 @@
 ## 目录结构
 
 ```
-intern-prep/
+project/
+├── learning
+│   └── python
+│       ├── day5_contacts
+│       │   ├── contacts.json
+│       │   └── day5_contacts.py
+│       ├── day6_rename
+│       │   └── day6_rename.py
+│       ├── day7_ledger
+│       │   ├── categories.json
+│       │   ├── day7_ledger_v1.0.py
+│       │   └── records.json
+│       ├── day8_pandas_demo
+│       │   ├── day8_demo.py
+│       │   └── demo.csv
+│       ├── day1.py
+│       ├── day2.py
+│       ├── day3.py
+│       ├── day4.py
+│       ├── day6_try.py
+│       └── review
+│           └── week1_acceptance.py
 ├── .gitignore
-├── README.md
-└── learning/
-    └── python/
-        ├── day1.py              # 变量、数据类型、输入输出
-        ├── day2.py              # 条件判断、循环
-        ├── day3.py              # 列表、字典、集合
-        ├── day4.py              # 函数
-        ├── day5_contacts/       # 通讯录小程序（JSON 持久化）
-        │   ├── contacts.json
-        │   └── day5_contacts.py
-        ├── day6_try.py          # 异常处理练习
-        ├── day6_rename/         # 文件批量重命名工具
-        │   └── day6_rename.py
-        └── day7_ledger/         # 记账本（收支分类 + 统计）
-            ├── categories.json
-            ├── day7_ledger_v1.0.py
-            └── records.json
+└── README.md
 ```
 
 ## 环境要求
 
 - Python 3.11（conda 环境 `intern`）
-- 只用标准库，无需额外依赖
+- pandas 3.0.6（Pandas 练习）
+- day1–day7 练习只使用标准库，无需额外依赖
 
 ## 怎么运行
 
 ```powershell
 conda activate intern
 python learning/python/day1.py
+python learning/python/day8_pandas_demo/day8_demo.py
 ```
 
 ## 进度

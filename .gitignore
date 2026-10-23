@@ -1,2 +1,6 @@
 __pycache__/
 .ruff_cache/
+.vscode/
+learning/python/review/review.py
+learning/python/review/contacts.json
+learning/python/review/week1_contacts.json
